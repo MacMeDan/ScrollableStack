@@ -14,6 +14,7 @@
 		37AF40701DAC094A00B987C7 /* ScrollableStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF406F1DAC094A00B987C7 /* ScrollableStackTests.swift */; };
 		37AF407B1DAC094A00B987C7 /* ScrollableStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF407A1DAC094A00B987C7 /* ScrollableStackUITests.swift */; };
 		37AF40891DAC09C200B987C7 /* ScrollableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF40881DAC09C200B987C7 /* ScrollableStack.swift */; };
+		37B6E1291DAC1C8F001B7FDD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E1281DAC1C8F001B7FDD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37AF407A1DAC094A00B987C7 /* ScrollableStackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableStackUITests.swift; sourceTree = "<group>"; };
 		37AF407C1DAC094A00B987C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37AF40881DAC09C200B987C7 /* ScrollableStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableStack.swift; sourceTree = "<group>"; };
+		37B6E1281DAC1C8F001B7FDD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				37AF40881DAC09C200B987C7 /* ScrollableStack.swift */,
 				37AF40611DAC094A00B987C7 /* Assets.xcassets */,
 				37AF40631DAC094A00B987C7 /* LaunchScreen.storyboard */,
+				37B6E1281DAC1C8F001B7FDD /* README.md */,
 				37AF40661DAC094A00B987C7 /* Info.plist */,
 			);
 			path = ScrollableStack;
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B6E1291DAC1C8F001B7FDD /* README.md in Sources */,
 				37AF40891DAC09C200B987C7 /* ScrollableStack.swift in Sources */,
 				37AF405B1DAC094A00B987C7 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				37AF40811DAC094A00B987C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37AF40821DAC094A00B987C7 /* Build configuration list for PBXNativeTarget "ScrollableStackTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				37AF40841DAC094A00B987C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37AF40851DAC094A00B987C7 /* Build configuration list for PBXNativeTarget "ScrollableStackUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				37AF40871DAC094A00B987C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
